@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 1440px;
+    height: 6330px;
+    background-color: black;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 20px;
+}
+
+.header_buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 22.1541px;
+    line-height: 27px;
+}
+
+.logo{
+    font-weight: 600;
+    font-size: 22.1541px;
+    line-height: 27px;
+}
+
+main{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+}
+
+.first_text{
+    width: 762.29px;
+    height: 66px;
+    font-weight: 400;
+    font-size: 34.8438px;
+    line-height: 95.52%;
+}
+
+.first_title{
+    width: 385px;
+    height: 92px;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 95.52%;
+}
+
+.second_title{
+    width: 273px;
+    height: 92px;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 95.52%;
+}
+
+.second_text{
+    width: 1117.79px;
+    height: 170.46px;
+    font-weight: 300;
+    font-size: 31.3802px;
+    line-height: 95.52%;
+    text-align: center;
+}
+
+.third_title{
+    width: 391px;
+    height: 92px;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 95.52%;
+}
+
+.info_title{
+    width: 496.72px;
+    height: 116px;
+    font-weight: 700;
+    font-size: 60.8412px;
+    line-height: 95.52%;
+}
+
+.info_text{
+    width: 496.72px;
+    height: 156px;
+    font-weight: 400;
+    font-size: 26.8575px;
+    line-height: 95.52%;
+}
+
+.info_quote{
+    width: 149px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 26.8575px;
+    line-height: 95.52%;
+    align-self: flex-start;
+    padding: 32px;
+}
+
+.web_dev{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 558.51px;
+    height: 516.95px;
+    background: #F2F2F2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+}
+
+.product{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 558.51px;
+    height: 516.95px;
+    background: #E2E2E2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 1;
+}
+
+.graphic{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 558.51px;
+    height: 516.95px;
+    background: #C0C0C0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;
+}
+
+.mobile_app{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 558.51px;
+    height: 516.95px;
+    background: #B4B4B4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 2;
+}
+
+.info{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    color: black;
+}
+
+.contact_title{
+    width: 361px;
+    height: 92px;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 95.52%;
+}
+
+.contact_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 358px;
+    height: 61px;
+    font-weight: 400;
+    font-size: 63.7913px;
+    line-height: 95.52%;
+}
+
+footer{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white ;
+}
+
+.year{
+    color: black;
+    width: 148px;
+    height: 19px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 95.52%;
+}
+
+.terms{
+    color: black;
+    width: 210px;
+    height: 19px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 95.52%;
+}
+
+.privacy{
+    color: black;
+    width: 130px;
+    height: 19px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 95.52%;
+}
+
+.terms_priv{
+    display: flex;
+    gap: 99px;
+}
