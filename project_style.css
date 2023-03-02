@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 4922px;
+    background-color: black;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin: 40px 20px;
+}
+
+header a{
+    text-decoration-line: none;
+    color: white;
+    width: 74px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 31.3194px;
+    line-height: 38px;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title{
+    width: 847.14px;
+    height: 154px;
+    font-weight: 400;
+    font-size: 80.4722px;
+    line-height: 95.52%;
+    text-align: center;
+}
+
+.img img{
+    width: 1336.84px;
+    height: 752.5px;
+}
+
+.first_text{
+    width: 1034.82px;
+    height: 149.5px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 95.52%;
+    text-align: center;
+}
+
+.first_img img{
+width: 539.66px;
+height: 949.51px;
+}
+
+.first_img_text{
+    width: 438.69px;
+    height: 377.11px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 95.52%;
+}
+
+.second_img_text{
+    width: 438.69px;
+    height: 377.11px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 95.52%;
+}
+
+.second_img{
+    width: 567.94px;
+    height: 853.92px;
+}
+
+.review_title{
+    width: 616px;
+    height: 71px;
+    font-weight: 400;
+    font-size: 74.3554px;
+    line-height: 95.52%;
+}
+
+.profile_img{
+    width: 323.42px;
+    height: 409.94px;
+}
+
+.text_title{
+    width: 748.39px;
+    height: 112px;
+    font-weight: 400;
+    font-size: 58.5481px;
+    line-height: 95.52%;
+}
+
+.review_text{
+    width: 714.94px;
+    height: 249.53px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 95.52%;
+}
+
+.name{
+    width: 257.09px;
+    height: 24.21px;
+    font-weight: 300;
+    font-size: 21.5938px;
+    line-height: 95.52%;
+    text-align: center;
+}
+
+footer{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white ;
+}
+
+.year{
+    color: black;
+    width: 148px;
+    height: 19px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 95.52%;
+}
+
+.terms{
+    color: black;
+    width: 210px;
+    height: 19px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 95.52%;
+}
+
+.privacy{
+    color: black;
+    width: 130px;
+    height: 19px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 95.52%;
+}
+
+.terms_priv{
+    display: flex;
+    gap: 99px;
+}
