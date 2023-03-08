@@ -11,7 +11,6 @@ body{
     color: white;
     font-family: 'Inter';
     font-style: normal;
-    width: 100%;
 }
 
 header{
@@ -19,7 +18,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 20px;
+    margin: 87px 88px;
 }
 
 header a{
@@ -32,13 +31,13 @@ header a{
     flex-direction: row;
     gap: 20px;
     font-weight: 400;
-    font-size: 22.1541px;
+    font-size: 22px;
     line-height: 27px;
 }
 
 .logo{
     font-weight: 600;
-    font-size: 22.1541px;
+    font-size: 22px;
     line-height: 27px;
 }
 
@@ -52,71 +51,67 @@ main{
 }
 
 .first_text{
+    display: flex;
+    justify-content: center;
     text-align: center;
-    width: 762.29px;
-    height: 66px;
     font-weight: 400;
-    font-size: 34.8438px;
-    line-height: 95.52%;
+    font-size: 35px;
+    max-width: 52%;
 }
 
 .first_title{
-    width: 385px;
-    height: 92px;
+    display: flex;
+    justify-content: center;
     font-weight: 400;
     font-size: 96px;
-    line-height: 95.52%;
 }
 
 .second_title{
-    width: 273px;
-    height: 92px;
+    display: flex;
+    justify-content: center;
     font-weight: 400;
     font-size: 96px;
-    line-height: 95.52%;
 }
 
 .second_text{
-    width: 1117.79px;
-    height: 170.46px;
+    display: flex;
+    justify-content: center;
     font-weight: 300;
-    font-size: 31.3802px;
-    line-height: 95.52%;
+    font-size: 31px;
     text-align: center;
+    max-width: 70%;   
 }
 
 .third_title{
-    width: 391px;
-    height: 92px;
+    display: flex;
+    justify-content: center;
     font-weight: 400;
     font-size: 96px;
-    line-height: 95.52%;
 }
 
 .info_title{
-    width: 496.72px;
-    height: 116px;
+    display: flex;
+    align-self: flex-start;
+    width: 50%;
     font-weight: 700;
-    font-size: 60.8412px;
-    line-height: 95.52%;
+    font-size: 61px;
+    padding-left: 32px;
 }
 
 .info_text{
-    width: 496.72px;
-    height: 156px;
+    display: flex;
+    align-self: flex-start;
     font-weight: 400;
-    font-size: 26.8575px;
-    line-height: 95.52%;
+    font-size: 27px;
+    padding-left: 32px;   
 }
 
 .info_quote{
-    width: 149px;
-    height: 26px;
+    display: flex;
     font-weight: 400;
-    font-size: 26.8575px;
-    line-height: 95.52%;
+    font-size: 27px;
     align-self: flex-start;
-    padding: 32px;
+    padding-left: 32px;
 }
 
 .web_dev{
@@ -124,8 +119,8 @@ main{
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    width: 558.51px;
-    height: 516.95px;
+    width: 558px;
+    height: 517px;
     background: #F2F2F2;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -137,8 +132,8 @@ main{
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    width: 558.51px;
-    height: 516.95px;
+    width: 558px;
+    height: 517px;
     background: #E2E2E2;
     grid-column-start: 3;
     grid-column-end: 5;
@@ -150,8 +145,8 @@ main{
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    width: 558.51px;
-    height: 516.95px;
+    width: 558px;
+    height: 517px;
     background: #C0C0C0;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -163,8 +158,8 @@ main{
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    width: 558.51px;
-    height: 516.95px;
+    width: 558px;
+    height: 517px;
     background: #B4B4B4;
     grid-column-start: 3;
     grid-column-end: 5;
@@ -179,11 +174,9 @@ main{
 }
 
 .contact_title{
-    width: 361px;
-    height: 92px;
+    display: flex;
     font-weight: 400;
     font-size: 96px;
-    line-height: 95.52%;
 }
 
 .contact_info{
@@ -191,11 +184,8 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 358px;
-    height: 61px;
     font-weight: 400;
-    font-size: 63.7913px;
-    line-height: 95.52%;
+    font-size: 64px;    
 }
 
 footer{
@@ -208,29 +198,20 @@ footer{
 
 .year{
     color: black;
-    width: 148px;
-    height: 19px;
     font-weight: 600;
     font-size: 20px;
-    line-height: 95.52%;
 }
 
 .terms{
     color: black;
-    width: 210px;
-    height: 19px;
     font-weight: 300;
     font-size: 20px;
-    line-height: 95.52%;
 }
 
 .privacy{
     color: black;
-    width: 130px;
-    height: 19px;
     font-weight: 300;
     font-size: 20px;
-    line-height: 95.52%;
 }
 
 .terms_priv{
@@ -244,44 +225,37 @@ footer{
     grid-template-columns: repeat(4, 1fr);
 }
 
+.pictures a{
+    width: 564px;
+    height: 544px;
+}
+
 .pic1{
-    width: 563.57px;
-    height: 544.16px;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 1;
 }
 .pic2{
-    width: 564.51px;
-    height: 544.16px;
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row: 1;
 }
 .pic4{
-    width: 564.51px;
-    height: 544.16px;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 2;
 }
 .pic3{
-    width: 563.57px;
-    height: 544.16px;
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row: 2;
 }
 .pic11{
-    width: 564.51px;
-    height: 544.16px;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 3;
 }
 .pic12{
-    width: 563.57px;
-    height: 544.16px;
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row: 3;
@@ -292,6 +266,6 @@ footer{
 }
 
 .people img{
-    width: 279.32px;
-    height: 374.46px;
+    width: 279px;
+    height: 374px;
 }
