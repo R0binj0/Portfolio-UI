@@ -47,7 +47,6 @@ main{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
 }
 
 .first_text{
@@ -59,14 +58,7 @@ main{
     max-width: 52%;
 }
 
-.first_title{
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
-    font-size: 96px;
-}
-
-.second_title{
+.first_title, .second_title, .third_title{
     display: flex;
     justify-content: center;
     font-weight: 400;
@@ -80,13 +72,6 @@ main{
     font-size: 31px;
     text-align: center;
     max-width: 70%;   
-}
-
-.third_title{
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
-    font-size: 96px;
 }
 
 .info_title{
@@ -114,13 +99,16 @@ main{
     padding-left: 32px;
 }
 
-.web_dev{
+.web_dev,  .product, .graphic, .mobile_app{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
     width: 558px;
     height: 517px;
+}
+
+.web_dev{
     background: #F2F2F2;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -128,12 +116,6 @@ main{
 }
 
 .product{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-    width: 558px;
-    height: 517px;
     background: #E2E2E2;
     grid-column-start: 3;
     grid-column-end: 5;
@@ -141,12 +123,6 @@ main{
 }
 
 .graphic{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-    width: 558px;
-    height: 517px;
     background: #C0C0C0;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -154,12 +130,6 @@ main{
 }
 
 .mobile_app{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-    width: 558px;
-    height: 517px;
     background: #B4B4B4;
     grid-column-start: 3;
     grid-column-end: 5;
@@ -197,19 +167,13 @@ footer{
     background-color: white ;
 }
 
-.year{
+.year {
     color: black;
     font-weight: 600;
     font-size: 20px;
 }
 
-.terms{
-    color: black;
-    font-weight: 300;
-    font-size: 20px;
-}
-
-.privacy{
+.terms, .privacy{
     color: black;
     font-weight: 300;
     font-size: 20px;
@@ -329,12 +293,7 @@ footer{
         font-size: 11px;
     }
     
-    .first_title{
-        font-weight: 400;
-        font-size: 25px;
-    }
-
-    .second_title{
+    .first_title, .second_title, .third_title, .contact_title{
         font-weight: 400;
         font-size: 25px;
     }
@@ -342,16 +301,6 @@ footer{
     .second_text{
         font-weight: 400;
         font-size: 8px;
-    }
-
-    .third_title{
-        font-weight: 400;
-        font-size: 25px;
-    }
-
-    .contact_title{
-        font-weight: 400;
-        font-size: 25px;
     }
 
     .contact_info{
@@ -367,7 +316,7 @@ footer{
 
     .year{
         font-weight: 700;
-        font-size: 10.6399px;
+        font-size: 11px;
         color: #fff;
     }
 
@@ -375,7 +324,7 @@ footer{
         display: none;
     }
 
-    .section_one{
+    .section_one, .section_two, .section_three{
         width: 100%;
         overflow-x: auto;
     }
@@ -386,19 +335,9 @@ footer{
         gap: 1rem;
     }
 
-    .pictures a{
+    .pictures a, .pictures img{
         width: 209px;
         height: 202px;
-    }
-
-    .pictures img{
-        width: 209px;
-        height: 202px;
-    }
-
-    .section_two{
-        width: 100%;
-        overflow-x: auto;
     }
 
     .people{
@@ -410,11 +349,6 @@ footer{
     .people img{
         width: 109px;
         height: 147px;
-    }
-
-    .section_three{
-        width: 100%;
-        overflow-x: auto;
     }
 
     .info{

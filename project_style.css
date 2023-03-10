@@ -61,6 +61,7 @@ main{
 }
 
 .img img{
+    width: 1336px;
     height: 752px;
     object-fit: cover;
     object-position: 50%;
@@ -74,27 +75,21 @@ main{
 }
 
 .second_section{
-    width: 85%;
+    width: 80%;
     height: 40%;
     display: grid;
     grid-template-rows: 1fr auto 1fr;
     grid-template-columns: repeat(1fr 1fr);
+    justify-items: center;
 }
 
-.second_img img {
-    width: 500px;
-    height: 100%;
-    object-fit: cover;
-}
-
-.first_img img{
+.second_img img, .first_img img {
     width: 500px;
     height: 100%;
     object-fit: cover;
 }
 
 .first_img{
-    padding-right: 20px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -102,7 +97,7 @@ main{
 }
 
 .first_img_text{
-    padding: 0px 0px 200px 20px;
+    padding-bottom: 12em;
     font-weight: 300;
     font-size: 30px;
     grid-column-start: 3;
@@ -112,7 +107,6 @@ main{
 }
 
 .second_img{
-    padding-left: 20px;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
@@ -120,7 +114,7 @@ main{
 }
 
 .second_img_text{
-    padding: 200px 20px 0px 0px;
+    padding-top: 12em;
     font-weight: 300;
     font-size: 30px;
     grid-column-start: 1;
@@ -141,10 +135,11 @@ main{
 }
 
 .reviews{
-    width: 90%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-bottom: 15em; 
 }
 
@@ -159,19 +154,19 @@ main{
 }
 
 .text_title{
-    padding-left: 20px;
+    padding-left: 40px;
     font-weight: 400;
     font-size: 58px;
 }
 
 .review_text{
-    margin: 0 20px;
+    padding-left: 40px;
     font-weight: 300;
     font-size: 30px;
 }
 
 .name{
-    padding-top: 12px;
+    padding-left: 40px;
     font-weight: 300;
     font-size: 22px;
 }
@@ -190,13 +185,7 @@ footer{
     font-size: 20px;
 }
 
-.terms{
-    color: black;
-    font-weight: 300;
-    font-size: 20px;
-}
-
-.privacy{
+.terms, .privacy{
     color: black;
     font-weight: 300;
     font-size: 20px;
